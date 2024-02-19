@@ -1,0 +1,9 @@
+Bio==1.6.2
+datasets==2.12.0
+numpy==1.21.6
+pandas==0.24.2
+torch==1.12.1+cu102
+tokenizers==0.10.3
+transformers==4.15.0
+
+
