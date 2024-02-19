@@ -18,6 +18,9 @@ transformers==4.15.0
 ## ConoGen
 Change directories to the ConoGen folder `cd ConoGen`
 
+### Download checkpoint
+Download checkpoint from zendo and place it in the ConoGen_checkpoints folder and ProGen_checkpoints folder
+
 ### training ConoGen
 `python 1_fine-tuning.py`
 
