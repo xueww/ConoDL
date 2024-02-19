@@ -18,7 +18,7 @@ transformers==4.15.0
 ## ConoGen
 Change directories to the ConoGen folder `cd ConoGen`
 
-### Download checkpoint
+### download checkpoint
 Download checkpoint from Zenodo, store it in the ConoGen_checkpoints folder and the ProGen_checkpoints folder, and change the checkpoint name to `pytorch_model.bin`
 
 ### training ConoGen
