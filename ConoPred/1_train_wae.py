@@ -1,3 +1,7 @@
+'''
+Yang, L., et al., Accelerating the discovery of anticancer peptides targeting lung and breast  cancers with the Wasserstein autoencoder model and PSO algorithm. Brief Bioinform, 2022. 23(5)
+'''
+
 import sys
 import torch
 import torch.nn as nn
