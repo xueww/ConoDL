@@ -1,0 +1,20 @@
+tleap
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+loadoff /mnt/disk1/software/AMBER18/amber18/dat/leap/lib/atomic_ions.lib
+set default PBRadii mbondi2
+com = loadpdb fd5e7_0.pdb
+comsol = loadpdb fd5e7_0.pdb
+bond comsol.15.SG comsol.22.SG
+bond comsol.4.SG comsol.47.SG
+bond comsol.55.SG comsol.31.SG
+charge comsol
+addions2 comsol Na+/Cl- 0 
+solvateBox comsol TIP3PBOX 10
+saveAmberParm com com.prmtop com.inpcrd
+saveAmberParm comsol comsol.prmtop comsol.inpcrd
+quit
+
+ambpdb -p com.prmtop <com.inpcrd> com_amber.pdb
+ambpdb -p comsol.prmtop <comsol.inpcrd> comsol_amber.pdbt

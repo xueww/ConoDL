@@ -1,0 +1,20 @@
+minimization
+ &cntrl
+  imin=1,
+  maxcyc=10000,
+  ncyc=5000,
+  ntb=1,
+  ntp=0,
+  ntf=1,
+  ntc=1,
+  ntr=1,
+  ntpr=50,
+  ntwr=1000,
+  cut=10.0,
+ /
+Weak restraints
+10.0
+RES 1 65
+END
+END
+
